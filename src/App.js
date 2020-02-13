@@ -79,9 +79,9 @@ function App() {
       <div>
         {charging_info && (
           <div>
-            <ProgressBar progress={75} />
+            <ProgressBar progress={100} />
             <Banner
-              title="Importing Data"
+              title="Importing data"
               onDismiss={() => {}}
               status="warning"
             >
